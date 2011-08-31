@@ -11,7 +11,7 @@
 		<fieldset class="ui-grid-a">
 
 			<div class="ui-block-a"><?php echo anchor('', 'Cancel', array('data-role'=>'button'));?></div>
-			<div class="ui-block-b"><?php echo anchor('/commute/usr/UxJ9CloO', 'Submit', array('data-role'=>'button','data-theme'=>'b'));?></div>	   
+			<div class="ui-block-b"><?php echo anchor('/commute/test', 'Submit', array('data-role'=>'button','data-theme'=>'b'));?></div>	   
 		</fieldset>
 	</form>	<!-- /form -->	
 	</div><!-- /content -->

@@ -28,6 +28,14 @@ class Commute extends CI_Controller {
 		$this->$atest[0]->test();
 		*/
 	}
+	
+	# A test to get the jQuery working properly, then we'll make it dynamic based on users stops
+	public function test()
+	{
+		$this->load->view('header',array('title'=>'Citrastop'));
+		$this->load->view('test_view');
+		$this->load->view('footer');
+	}
 
 }
 

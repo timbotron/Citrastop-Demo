@@ -14,7 +14,7 @@
 
 <div data-role="page" data-theme="a">
 	<div data-role="header" data-position="inline">
-	<a href="login/">Login</a>
+	<a href="<?php echo base_url();?>login/">Login</a>
 	<h1><?php echo $title; ?></h1>
-	<a href="support/">Support</a>
+	<a href="<?php echo base_url();?>support/">Support</a>
 </div>
