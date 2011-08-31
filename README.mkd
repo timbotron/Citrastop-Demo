@@ -1,0 +1,29 @@
+# Project: #
+Citrastop Demo
+
+## Contributors: ##
+Tim Habersack
+
+## Summary: ##
+Demo of Citrastop, a web application to allow users to create A prototype, with some functionality, with a CI backend.
+
+### 08-30-11 ###
+
+* Apologies, trying to throw this up really quickly, hence the lack of decent documentation. T_T
+* Have jquerydemo working, with disabling ajax-ing of links. It breaks CI's URI magic
+* Have 'home' controller
+* Have 'commuter' controller, which will be the main display for the users timetable
+* Set up 'user_info' library, which will handle retrieving and holding the users id, systems they use, and stops
+* Set up 'error' controller, 'error_lib' helper, a system which handles error codes for the whole system
+* Created database for the demo
+* Set up 'user_mojo' model, which will be primarily called from the 'user_info' library, and handles the fetching of the users data
+
+## TODO: ##
+* Get systems & stops to come back into user_info library
+* Create a library for each system (BART, Emery-go-Round,MUNI), that handles setting up XML pulling via jQuery
+* lots
+* Write documentation
+
+## License ##
+
+Citrastop by Tim Habersack is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.

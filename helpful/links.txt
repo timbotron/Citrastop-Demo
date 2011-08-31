@@ -1,0 +1,1 @@
+http://api.bart.gov/api/sched.aspx?cmd=depart&orig=LAFY&dest=MCAR&date=now&key=MW9S-E7SL-26DU-VV8V&b=0&a=4&l=0

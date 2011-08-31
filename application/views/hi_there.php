@@ -1,0 +1,2 @@
+<h2>Welcome to Citrastop</h2>
+<p>This is just a demo, but hopefully you will see the benefit of having all your commuter info in one spot. Now if only Nextbus would get back to me on the <?php echo anchor("http://emerygoround.com", "Emery-go-round");?> data..</p>
